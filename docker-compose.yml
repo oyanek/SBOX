@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dev:
+    build: .
+    volumes:
+      - .:/DOCK_UBU
+    stdin_open: true
+    tty: true
